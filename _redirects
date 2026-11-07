@@ -1,0 +1,4 @@
+/portfolio /portfolio/ 301
+/portfolio/:slug /project.html 200
+/portfolio/:slug/ /project.html 200
+/services/:slug /services/:slug/ 301
