@@ -38,7 +38,7 @@
   }
 
   function absolute(path) {
-    return 'https://toosiappco.ir/' + String(path || '').replace(/^\/+/, '');
+    return 'https://toosi.app.co/' + String(path || '').replace(/^\/+/, '');
   }
 
   function setSchema(data) {
@@ -57,7 +57,7 @@
     if (!project) return;
     var title = pick(project, 'seoTitle') || pick(project, 'title');
     var desc = pick(project, 'seoDescription') || pick(project, 'description');
-    var url = 'https://toosiappco.ir/portfolio/' + encodeURIComponent(project.slug);
+    var url = 'https://toosi.app.co/portfolio/' + encodeURIComponent(project.slug);
     var image = absolute(project.cover);
 
     document.title = title + ' — TOOSI.APP.CO';
@@ -84,7 +84,7 @@
       'creator': {
         '@type': 'Person',
         'name': 'Mahdi Toosi',
-        'url': 'https://toosiappco.ir/'
+        'url': 'https://toosi.app.co/'
       },
       'keywords': (project.technologies || []).join(', ')
     });
@@ -198,7 +198,7 @@
     if (empty) empty.hidden = false;
     document.title = (lang === 'fa' ? 'پروژه پیدا نشد' : 'Project not found') + ' — TOOSI.APP.CO';
     var canonical = $('link[rel="canonical"]');
-    if (canonical) canonical.setAttribute('href', 'https://toosiappco.ir/portfolio/');
+    if (canonical) canonical.setAttribute('href', 'https://toosi.app.co/portfolio/');
   }
 
   function init() {
