@@ -1,41 +1,14 @@
 {
-  "name": "TOOSI.APP.CO",
+  "name": "TOOSI.APP.CO — Technical Consulting",
   "short_name": "TOOSI",
-  "description": "طراحی وب، توسعهٔ اندروید و محصولات دیجیتال — Web design, Android development & digital products",
+  "description": "مشاوره فنی و تخصصی حرفه‌ای",
   "start_url": "/",
-  "scope": "/",
   "display": "standalone",
-  "background_color": "#070605",
-  "theme_color": "#070605",
+  "background_color": "#07070a",
+  "theme_color": "#0a0a0c",
   "lang": "fa",
-  "dir": "rtl",
   "icons": [
-    {
-      "src": "/assets/brand/icon-48.png",
-      "sizes": "48x48",
-      "type": "image/png"
-    },
-    {
-      "src": "/assets/brand/icon-96.png",
-      "sizes": "96x96",
-      "type": "image/png"
-    },
-    {
-      "src": "/assets/brand/icon-180.png",
-      "sizes": "180x180",
-      "type": "image/png"
-    },
-    {
-      "src": "/assets/brand/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/assets/brand/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    {"src": "assets/brand/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "assets/brand/icon-512.png", "sizes": "512x512", "type": "image/png"}
   ]
 }

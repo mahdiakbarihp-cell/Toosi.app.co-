@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://toosi.app.co/sitemap.xml
+Sitemap: https://toosiappco.ir/sitemap.xml

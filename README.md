@@ -6,7 +6,7 @@
 - دوزبانهٔ فارسی/انگلیسی با `localStorage`، پیش‌فرض RTL
 - پورتفولیوی داده‌محور از `data/projects.json`
 - صفحهٔ مستقل برای هر پروژه و هر خدمت
-- آمادهٔ آپلود مستقیم روی **Cloudflare Pages** و دامنهٔ `toosi.app.co`
+- آمادهٔ آپلود مستقیم روی **Cloudflare Pages** و دامنهٔ `toosiappco.ir`
 
 ---
 
@@ -57,10 +57,10 @@ assets/img/apps/*.jpg          کاور اپلیکیشن‌ها
 2. **Workers & Pages** ← **Create** ← **Pages** ← **Upload assets**.
 3. نام پروژه: `toosi-app-co`.
 4. ZIP نهایی را آپلود و **Deploy site** را بزنید.
-5. در **Custom domains** آدرس `toosi.app.co` را اضافه کنید.
+5. در **Custom domains** آدرس `toosiappco.ir` را اضافه کنید.
 6. برای آپدیت: **Create new deployment** و ZIP جدید.
 
-`toosi.app.co` زیرمجموعهٔ `app.co` است؛ بنابراین `app.co` باید در همان اکانت Cloudflare باشد تا CNAME و SSL خودکار ساخته شوند. محتوای ZIP باید در ریشه باشد؛ یعنی `index.html` در بالاترین سطح ZIP قرار دارد.
+`toosiappco.ir` زیرمجموعهٔ `app.co` است؛ بنابراین `app.co` باید در همان اکانت Cloudflare باشد تا CNAME و SSL خودکار ساخته شوند. محتوای ZIP باید در ریشه باشد؛ یعنی `index.html` در بالاترین سطح ZIP قرار دارد.
 
 ## ویرایش محتوا
 
