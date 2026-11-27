@@ -36,8 +36,8 @@
     <header class="w-full max-w-[1100px] mx-auto mt-3 md:mt-4 px-3 md:px-4 relative z-50">
         <nav class="flex items-center justify-between px-4 md:px-6 py-2.5 rounded-full bg-black/55 backdrop-blur-md border border-white/15 shadow-lg">
             <!-- سمت راست: برند (لوگو یا متن) -->
-            <a href="index.html" class="flex items-center gap-2 text-white font-bold tracking-widest text-sm md:text-base hover:text-gray-300 transition shrink-0" dir="ltr">
-                <img src="images/logo/logo.png" alt="TOOSI.APP.CO" class="h-6 md:h-7 w-auto object-contain hidden" onload="this.classList.remove('hidden')" onerror="this.remove()">
+            <a href="index.html" class="flex items-center gap-2.5 text-white font-bold tracking-widest text-sm md:text-base hover:text-gray-300 transition shrink-0" dir="ltr">
+                <img src="images/logo/logo.png" alt="TOOSI.APP.CO" class="h-7 md:h-8 w-7 md:w-8 rounded-full object-cover border border-amber-400/40 hidden" onload="this.classList.remove('hidden')" onerror="this.remove()">
                 <span>TOOSI.APP.CO</span>
             </a>
 
@@ -75,21 +75,297 @@
         </div>
     </header>
 
-    <main class="flex-1 flex items-start justify-center px-3 md:px-4 pt-4 md:pt-8 pb-10">
-        <div class="glass-card w-full max-w-[700px] rounded-2xl p-6 md:p-8 text-center">
-            <h1 class="text-xl md:text-2xl font-bold text-white mb-3">پروژه های App</h1>
-            <p class="text-xs text-gray-400 mb-6" dir="ltr">File: app-projects.html</p>
-            <p class="text-sm text-gray-300 leading-relaxed mb-8">
-                محتوای اختصاصی بخش «پروژه های App» در مراحل بعدی طراحی در این صفحه قرار خواهد گرفت.
-            </p>
-            <a href="index.html" class="inline-block px-6 py-2.5 rounded-full bg-white/15 hover:bg-white/25 border border-white/25 text-xs font-medium text-white transition">
-                بازگشت به صفحه اصلی
-            </a>
+    <main class="flex-1 flex flex-col items-center px-3 md:px-4 pt-4 md:pt-8 pb-12">
+        <div class="w-full max-w-[1100px]">
+            <div class="glass-card rounded-2xl p-6 md:p-8 mb-6 text-center">
+                <h1 class="text-xl md:text-3xl font-bold text-white mb-2">پروژه های App</h1>
+                <p class="text-xs md:text-sm text-gray-300 max-w-2xl mx-auto leading-relaxed">
+                    مجموعه اپلیکیشن‌ها و نرم‌افزارهای توسعه‌یافته در حوزه‌های مدیریت صنعتی و فروش، تابلو برق، اشتراک‌گذاری و CRM، مرورگر اختصاصی، تقویم چندزبانه، محاسبات کابل و ماینر، پخش صدا و استودیو میکس.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
+                
+            <article class="glass-card rounded-2xl p-5 md:p-6 flex flex-col justify-between text-right">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-3">
+                        <span class="text-xs px-2.5 py-1 rounded-full bg-white/10 border border-white/15 text-gray-200">
+                            برق و تابلوهای صنعتی
+                        </span>
+                        <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-amber-400/15 border border-amber-300/30 text-amber-200" dir="ltr">
+                            v1.10 &bull; صنعتی و برق
+                        </span>
+                    </div>
+                    <h2 class="text-base md:text-lg font-bold text-white mb-2">1. واحد برق - باکس ایران (BoxIran)</h2>
+                    <p class="text-xs md:text-sm text-gray-300 leading-relaxed">
+                        تعریف قطعات و تابلوها (ساده/فول، تک/دو/سهفاز)، تیکزنی و تعیین تعداد، کپی/جابهجایی/حذف ردیف، محاسبه تجمیعی با ضریب تابلو، موجودی انبار و خرید قطعات، خروجی PDF قطعات/کسری/فروشندگان، کسر موجودی و بکاپ JSON.
+                    </p>
+                </div>
+                <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-xs text-gray-400">
+                    <span>TOOSI.APP.CO</span>
+                    <a href="consultation-order.html" class="text-gray-200 hover:text-white underline underline-offset-4 transition">
+                        مشاوره و سفارش
+                    </a>
+                </div>
+            </article>
+        
+
+            <article class="glass-card rounded-2xl p-5 md:p-6 flex flex-col justify-between text-right">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-3">
+                        <span class="text-xs px-2.5 py-1 rounded-full bg-white/10 border border-white/15 text-gray-200">
+                            مدیریت سفارش، انبار و حسابداری
+                        </span>
+                        <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-amber-400/15 border border-amber-300/30 text-amber-200" dir="ltr">
+                            v2.6 &bull; نسخه اصلی
+                        </span>
+                    </div>
+                    <h2 class="text-base md:text-lg font-bold text-white mb-2">2. صنایع بزرگ باکس ایران</h2>
+                    <p class="text-xs md:text-sm text-gray-300 leading-relaxed">
+                        اقلام و باکسها، انبار و هشدار کمبود، ثبت/جستجو/تحویل سفارش، فاکتور با PDF/چاپ/اشتراک، لیست قیمت مدیریتی و مشتری، فایل آپدیت قیمت و پیام managers، بکاپ JSON، حسابداری آزمایشی (اسناد، بانک/چک، بهای تمامشده، KPI).
+                    </p>
+                </div>
+                <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-xs text-gray-400">
+                    <span>TOOSI.APP.CO</span>
+                    <a href="consultation-order.html" class="text-gray-200 hover:text-white underline underline-offset-4 transition">
+                        مشاوره و سفارش
+                    </a>
+                </div>
+            </article>
+        
+
+            <article class="glass-card rounded-2xl p-5 md:p-6 flex flex-col justify-between text-right">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-3">
+                        <span class="text-xs px-2.5 py-1 rounded-full bg-white/10 border border-white/15 text-gray-200">
+                            مدیریت و هویت ویژه
+                        </span>
+                        <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-amber-400/15 border border-amber-300/30 text-amber-200" dir="ltr">
+                            v2.6 &bull; نسخه مدیریتی
+                        </span>
+                    </div>
+                    <h2 class="text-base md:text-lg font-bold text-white mb-2">3. ورژن مدیریتی</h2>
+                    <p class="text-xs md:text-sm text-gray-300 leading-relaxed">
+                        همان امکانات نسخه اصلی بههمراه قاب طلایی لوگوی و نصب جداگانه در کنار نسخه استاندارد.
+                    </p>
+                </div>
+                <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-xs text-gray-400">
+                    <span>TOOSI.APP.CO</span>
+                    <a href="consultation-order.html" class="text-gray-200 hover:text-white underline underline-offset-4 transition">
+                        مشاوره و سفارش
+                    </a>
+                </div>
+            </article>
+        
+
+            <article class="glass-card rounded-2xl p-5 md:p-6 flex flex-col justify-between text-right">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-3">
+                        <span class="text-xs px-2.5 py-1 rounded-full bg-white/10 border border-white/15 text-gray-200">
+                            فروش و فاکتور رسمی
+                        </span>
+                        <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-amber-400/15 border border-amber-300/30 text-amber-200" dir="ltr">
+                            v2.6 &bull; فروش و صدور فاکتور
+                        </span>
+                    </div>
+                    <h2 class="text-base md:text-lg font-bold text-white mb-2">4. واحد فروش</h2>
+                    <p class="text-xs md:text-sm text-gray-300 leading-relaxed">
+                        ثبت و جستجوی سفارشها، تاریخچه تحویلشده، صدور فاکتور رسمی (PDF/چاپ/اشتراک)، لیست قیمت مشتری، دریافت آپدیت لحظهای قیمت، پیام مدیر و تماس با مدیریت.
+                    </p>
+                </div>
+                <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-xs text-gray-400">
+                    <span>TOOSI.APP.CO</span>
+                    <a href="consultation-order.html" class="text-gray-200 hover:text-white underline underline-offset-4 transition">
+                        مشاوره و سفارش
+                    </a>
+                </div>
+            </article>
+        
+
+            <article class="glass-card rounded-2xl p-5 md:p-6 flex flex-col justify-between text-right">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-3">
+                        <span class="text-xs px-2.5 py-1 rounded-full bg-white/10 border border-white/15 text-gray-200">
+                            بازاریابی، CRM و ارسال گروهی
+                        </span>
+                        <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-amber-400/15 border border-amber-300/30 text-amber-200" dir="ltr">
+                            v2.1 &bull; اشتراک‌گذاری و پیگیری
+                        </span>
+                    </div>
+                    <h2 class="text-base md:text-lg font-bold text-white mb-2">5. Moshtari Share</h2>
+                    <p class="text-xs md:text-sm text-gray-300 leading-relaxed">
+                        تعریف سری/مدل/گزینهها و ظرفیتها، پیوست عکس/ویدیو/PDF و کپشن، ارسال گروهی به واتساپ/تلگرام/ایتا/سروش، ارسال خودکار پشت سر هم، ذخیره مخاطب و پیام آخر، پیگیری مشتریان و تاریخ خرید، پیام گروهی، تاریخچه ارسال و بکاپ ZIP.
+                    </p>
+                </div>
+                <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-xs text-gray-400">
+                    <span>TOOSI.APP.CO</span>
+                    <a href="consultation-order.html" class="text-gray-200 hover:text-white underline underline-offset-4 transition">
+                        مشاوره و سفارش
+                    </a>
+                </div>
+            </article>
+        
+
+            <article class="glass-card rounded-2xl p-5 md:p-6 flex flex-col justify-between text-right">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-3">
+                        <span class="text-xs px-2.5 py-1 rounded-full bg-white/10 border border-white/15 text-gray-200">
+                            مرورگر اختصاصی وب
+                        </span>
+                        <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-amber-400/15 border border-amber-300/30 text-amber-200" dir="ltr">
+                            v1.0 &bull; boxiransilent.ir
+                        </span>
+                    </div>
+                    <h2 class="text-base md:text-lg font-bold text-white mb-2">6. BOXIRAN Browser</h2>
+                    <p class="text-xs md:text-sm text-gray-300 leading-relaxed">
+                        مرورگر اختصاصی سایت boxiransilent.ir، اسپلش لوگوی چرخان، نوار پیشرفت، تازهرسانی با کشیدن به پایین، باز کردن لینک/دانلود خارجی در مرورگر سیستم، بازگشت/زوم/JavaScript/کوکی و حفظ صفحه هنگام چرخش.
+                    </p>
+                </div>
+                <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-xs text-gray-400">
+                    <span>TOOSI.APP.CO</span>
+                    <a href="consultation-order.html" class="text-gray-200 hover:text-white underline underline-offset-4 transition">
+                        مشاوره و سفارش
+                    </a>
+                </div>
+            </article>
+        
+
+            <article class="glass-card rounded-2xl p-5 md:p-6 flex flex-col justify-between text-right">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-3">
+                        <span class="text-xs px-2.5 py-1 rounded-full bg-white/10 border border-white/15 text-gray-200">
+                            تقویم، یادآور و ابزار روزانه
+                        </span>
+                        <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-amber-400/15 border border-amber-300/30 text-amber-200" dir="ltr">
+                            v3.2 &bull; چندزبانه و ویجت
+                        </span>
+                    </div>
+                    <h2 class="text-base md:text-lg font-bold text-white mb-2">7. تقویم گاهبان</h2>
+                    <p class="text-xs md:text-sm text-gray-300 leading-relaxed">
+                        تقویم شمسی/میلادی/قمری، رویدادها با رنگ/یادآوری/تکرار، جستجو و برنامهریزی، زنگدار تقویمی، مناسبتها آفلاین و تعطیلات ۱۶ کشور آنلاین، ویجت صفحه اصلی، میانبرها و تاریخ در نوار وضعیت، اخبار RSS، بکاپ JSON، فارسی/انگلیسی/عربی و تم شبانه.
+                    </p>
+                </div>
+                <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-xs text-gray-400">
+                    <span>TOOSI.APP.CO</span>
+                    <a href="consultation-order.html" class="text-gray-200 hover:text-white underline underline-offset-4 transition">
+                        مشاوره و سفارش
+                    </a>
+                </div>
+            </article>
+        
+
+            <article class="glass-card rounded-2xl p-5 md:p-6 flex flex-col justify-between text-right">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-3">
+                        <span class="text-xs px-2.5 py-1 rounded-full bg-white/10 border border-white/15 text-gray-200">
+                            محاسبات مهندسی برق و ماینر
+                        </span>
+                        <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-amber-400/15 border border-amber-300/30 text-amber-200" dir="ltr">
+                            v2.2.1 &bull; مهندسی کابل
+                        </span>
+                    </div>
+                    <h2 class="text-base md:text-lg font-bold text-white mb-2">8. MinerCable Pro</h2>
+                    <p class="text-xs md:text-sm text-gray-300 leading-relaxed">
+                        محاسبه سطح مقطع کابل فاز/نول/ارت طبق استاندارد، کاتالوگ ماینرها و ورودی سفارشی، جریان فاز و طراحی ۲۴ساعته، نول با هارمونیک سوم، افت ولتاژ/تلفات/دمای هادی/کلید پیشنهادی، تنظیمات عایق/نصب/گروهبندی/PF و تک یا سهفاز، ماشینحساب مهندسی، تاریخچه و راهنما.
+                    </p>
+                </div>
+                <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-xs text-gray-400">
+                    <span>TOOSI.APP.CO</span>
+                    <a href="consultation-order.html" class="text-gray-200 hover:text-white underline underline-offset-4 transition">
+                        مشاوره و سفارش
+                    </a>
+                </div>
+            </article>
+        
+
+            <article class="glass-card rounded-2xl p-5 md:p-6 flex flex-col justify-between text-right">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-3">
+                        <span class="text-xs px-2.5 py-1 rounded-full bg-white/10 border border-white/15 text-gray-200">
+                            پخش چندرسانه‌ای و صدا
+                        </span>
+                        <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-amber-400/15 border border-amber-300/30 text-amber-200" dir="ltr">
+                            v1.27 &bull; پخش‌کننده حرفه‌ای
+                        </span>
+                    </div>
+                    <h2 class="text-base md:text-lg font-bold text-white mb-2">9. JetPlayer</h2>
+                    <p class="text-xs md:text-sm text-gray-300 leading-relaxed">
+                        پخش MP3/FLAC/AAC/M4A/WAV/OGG/OPUS، کتابخانه بر اساس پوشه/آلبوم/هنرمند/سبک و جستجو، پلیلیست و علاقهمندیها، صف پخش/شافل/تکرار/تکرار A-B، اکولایزر و افکتها، کراسفید/ReplayGain/سرعت پخش/تایمر خواب، کنترل از نوار اعلان، ورود به تلگرام و پخش موزیک کانالها.
+                    </p>
+                </div>
+                <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-xs text-gray-400">
+                    <span>TOOSI.APP.CO</span>
+                    <a href="consultation-order.html" class="text-gray-200 hover:text-white underline underline-offset-4 transition">
+                        مشاوره و سفارش
+                    </a>
+                </div>
+            </article>
+        
+
+            <article class="glass-card rounded-2xl p-5 md:p-6 flex flex-col justify-between text-right">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-3">
+                        <span class="text-xs px-2.5 py-1 rounded-full bg-white/10 border border-white/15 text-gray-200">
+                            استودیو صدا، استم و میکس
+                        </span>
+                        <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-amber-400/15 border border-amber-300/30 text-amber-200" dir="ltr">
+                            v0.1.0 &bull; میکس و استم‌ساز
+                        </span>
+                    </div>
+                    <h2 class="text-base md:text-lg font-bold text-white mb-2">10. vocaldj / JetDJ</h2>
+                    <p class="text-xs md:text-sm text-gray-300 leading-relaxed">
+                        جداسازی آفلات به وکال/درام/باس/سایر، استودیو با waveform و trim، Mute/گین/EQ سهبانده روی هر استم، Tempo 0.25–4× و crossfade تا ۱۰ ثانیه، میکس دو دک و محو وکال، ضبط WAV/M4A، دوره آزمایشی ۲۴ ساعته و فعالسازی آفلاین، رابط فارسی RTL.
+                    </p>
+                </div>
+                <div class="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-xs text-gray-400">
+                    <span>TOOSI.APP.CO</span>
+                    <a href="consultation-order.html" class="text-gray-200 hover:text-white underline underline-offset-4 transition">
+                        مشاوره و سفارش
+                    </a>
+                </div>
+            </article>
+        
+            </div>
+
+            <div class="mt-8 text-center">
+                <a href="index.html" class="inline-block px-6 py-2.5 rounded-full bg-white/15 hover:bg-white/25 border border-white/25 text-xs md:text-sm font-medium text-white transition">
+                    بازگشت به صفحه اصلی
+                </a>
+            </div>
         </div>
     </main>
 
-    <footer class="text-center py-3 text-[11px] text-gray-400/70" dir="ltr">
-        &copy; 2026 TOOSI.APP.CO
+    <footer class="w-full max-w-[1100px] mx-auto px-3 md:px-4 pb-5 pt-2">
+        <div class="glass-card rounded-2xl px-5 py-5 md:px-7 md:py-6 flex flex-col md:flex-row items-center justify-between gap-5">
+            <div class="flex items-center gap-3.5 text-right">
+                <img src="images/logo/logo.png" alt="TOOSI.APP.CO Logo" class="w-12 h-12 rounded-xl object-cover border border-amber-400/35 shrink-0 hidden" onload="this.classList.remove('hidden')" onerror="this.remove()">
+                <div>
+                    <div class="text-sm md:text-base font-bold tracking-wider text-white" dir="ltr">TOOSI.APP.CO</div>
+                    <div class="text-xs text-gray-300 mt-0.5" dir="ltr">Toosiappco.ir</div>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap items-center justify-center md:justify-end gap-3 text-xs md:text-sm text-gray-200" dir="ltr">
+                <a href="https://Toosiappco.ir" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 transition">
+                    Toosiappco.ir
+                </a>
+                <a href="mailto:Toosi.app.co@gmail.com" class="px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 transition">
+                    Toosi.app.co@gmail.com
+                </a>
+                <a href="tel:09367781266" class="px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 transition">
+                    09367781266
+                </a>
+                <a href="https://wa.me/989367781266" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 rounded-full bg-emerald-500/15 hover:bg-emerald-500/25 border border-emerald-400/30 text-emerald-200 transition">
+                    WhatsApp
+                </a>
+                <a href="https://t.me/+989367781266" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 rounded-full bg-sky-500/15 hover:bg-sky-500/25 border border-sky-400/30 text-sky-200 transition">
+                    Telegram
+                </a>
+            </div>
+        </div>
+        <div class="text-center pt-3 text-[11px] text-gray-400/75" dir="ltr">
+            &copy; 2026 TOOSI.APP.CO &mdash; Toosiappco.ir
+        </div>
     </footer>
 
     <script>

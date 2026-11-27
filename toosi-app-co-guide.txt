@@ -1,0 +1,27 @@
+راهنمای ساختار فایل‌ها و پوشه‌های TOOSI.APP.CO
+=================================================
+
+1. فایل‌های HTML را در مسیر اصلی هاست (معمولاً public_html) قرار دهید.
+2. پوشه images را در کنار فایل‌های HTML بارگذاری کنید.
+
+تطابق نام فایل‌ها و پوشه‌ها:
+- images/background/
+    -> background-guide.txt
+    -> فایل تصویر پس‌زمینه: 1000233278_2.jpg
+- images/logo/
+    -> logo-guide.txt
+    -> فایل لوگو: logo.png (در هدر، بخش اطلاعات تماس و فوتر فراخوانی می‌شود)
+- images/hero/
+    -> hero-guide.txt
+- images/electrical-projects/
+    -> electrical-projects-guide.txt
+    -> فایل کاور مستطیل اول: electrical-projects.jpg
+- images/app-projects/
+    -> app-projects-guide.txt
+    -> فایل کاور مستطیل دوم: app-projects.jpg
+- images/design-build-projects/
+    -> design-build-projects-guide.txt
+    -> فایل کاور مستطیل سوم: design-build-projects.jpg
+- images/projects-in-development/
+    -> projects-in-development-guide.txt
+    -> فایل کاور مستطیل چهارم: projects-in-development.jpg
