@@ -11,6 +11,7 @@
 - images/logo/
     -> logo-guide.txt
     -> فایل لوگو: logo.png
+    -> فایل کلیپ ۳ ثانیه‌ای لوگو در ارتباط با ما: contact-logo.mp4
 - images/hero/
     -> hero-guide.txt
 - images/electrical-projects/
