@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پروژه های App | TOOSI.APP.CO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <style>
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            background-color: #090b0e;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6)), url('images/background/1000233278_2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.06);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            border: 1px solid rgba(255, 255, 255, 0.16);
+            transition: all 0.3s ease;
+        }
+        .glass-card:hover {
+            background: rgba(255, 255, 255, 0.12);
+            border-color: rgba(255, 255, 255, 0.35);
+            transform: translateY(-4px);
+        }
+    </style>
+</head>
+<body class="text-white flex flex-col justify-between min-h-screen">
+
+    <header class="w-full max-w-[1100px] mx-auto mt-4 px-4">
+        <nav class="flex items-center justify-between px-6 py-2.5 rounded-full bg-black/50 backdrop-blur-md border border-white/15 shadow-lg">
+            <!-- سمت راست: برند (لوگو یا متن) -->
+            <a href="index.html" class="flex items-center gap-2.5 text-white font-bold tracking-widest text-sm md:text-base hover:text-gray-300 transition" dir="ltr">
+                <!-- در صورت قرار دادن فایل logo.png در پوشه images/logo، تصویر نمایش داده می‌شود -->
+                <img src="images/logo/logo.png" alt="TOOSI.APP.CO" class="h-7 w-auto object-contain hidden" onload="this.classList.remove('hidden')" onerror="this.remove()">
+                <span>TOOSI.APP.CO</span>
+            </a>
+
+            <!-- سمت چپ: لینک ها به ترتیب از چپ به راست -->
+            <div class="flex items-center gap-3 md:gap-5 text-xs md:text-sm text-gray-200 overflow-x-auto whitespace-nowrap" dir="ltr">
+                <a href="contact.html" class="hover:text-white transition">ارتباط با ما</a>
+                <a href="app-activation.html" class="hover:text-white transition">فعال سازی برنامه ها</a>
+                <a href="projects-in-development.html" class="hover:text-white transition">برنامه های در حال توسعه</a>
+                <a href="custom-websites.html" class="hover:text-white transition">وب سایت ها اختصاصی</a>
+                <a href="consultation-order.html" class="hover:text-white transition">مشاوره و سفارش</a>
+                <a href="index.html" class="text-white font-semibold hover:text-gray-300 transition">خانه</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-1 flex items-center justify-center px-4 py-10">
+        <div class="glass-card w-full max-w-[700px] rounded-2xl p-8 text-center">
+            <h1 class="text-2xl font-bold text-white mb-3">پروژه های App</h1>
+            <p class="text-xs text-gray-400 mb-6" dir="ltr">File: app-projects.html</p>
+            <p class="text-sm text-gray-300 leading-relaxed mb-8">
+                محتوای اختصاصی بخش «پروژه های App» در مراحل بعدی طراحی در این صفحه قرار خواهد گرفت.
+            </p>
+            <a href="index.html" class="inline-block px-6 py-2.5 rounded-full bg-white/15 hover:bg-white/25 border border-white/25 text-xs font-medium text-white transition">
+                بازگشت به صفحه اصلی
+            </a>
+        </div>
+    </main>
+
+    <footer class="text-center py-3 text-[11px] text-gray-400/70" dir="ltr">
+        &copy; 2026 TOOSI.APP.CO
+    </footer>
+</body>
+</html>
