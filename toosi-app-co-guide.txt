@@ -10,7 +10,7 @@
     -> فایل تصویر پس‌زمینه: 1000233278_2.jpg
 - images/logo/
     -> logo-guide.txt
-    -> فایل لوگو: logo.png (در هدر، بخش اطلاعات تماس و فوتر فراخوانی می‌شود)
+    -> فایل لوگو: logo.png
 - images/hero/
     -> hero-guide.txt
 - images/electrical-projects/
