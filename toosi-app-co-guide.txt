@@ -38,3 +38,7 @@
    - images/logo/logo.png
    - images/logo/contact-logo.mp4
    - images/background/1000233278_2.jpg
+
+پوشه اختصاصی آیکون مرورگر (Favicon) و لوگوی جدید:
+- images/logo/logo.png (لوگوی اصلی هدر سایت و پیش‌نمایش شبکه‌های اجتماعی - قرار داده شد)
+- images/favicon/ (پوشه مجزای آیکون مرورگر شامل favicon.png، favicon-32x32.png، apple-touch-icon.png و favicon.ico - قرار داده شد)

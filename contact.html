@@ -10,8 +10,10 @@
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="theme-color" content="#090b0e">
     <link rel="canonical" href="https://toosiappco.ir/contact.html">
-    <link rel="icon" type="image/png" href="images/logo/logo.png">
-    <link rel="apple-touch-icon" href="images/logo/logo.png">
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="images/favicon/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
 
     <!-- Open Graph / Social Sharing -->
     <meta property="og:locale" content="fa_IR">
@@ -104,34 +106,36 @@
 
     <header class="w-full max-w-[1100px] mx-auto mt-3 md:mt-4 px-3 md:px-4 relative z-50">
         <nav class="flex items-center justify-between px-4 md:px-6 py-2.5 rounded-full bg-black/55 backdrop-blur-md border border-white/15 shadow-lg">
-            <!-- سمت راست: برند (لوگو یا متن) -->
+            <!-- سمت راست: منوی دسکتاپ و دکمه منوی موبایل -->
+            <div class="flex items-center justify-start gap-5">
+                <!-- دکمه منوی موبایل -->
+                <button id="mobile-menu-btn" type="button" aria-label="منو" class="md:hidden flex items-center justify-center w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-white transition shrink-0">
+                    <svg id="menu-icon-open" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h16" />
+                    </svg>
+                    <svg id="menu-icon-close" class="w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+
+                <div class="hidden md:flex items-center gap-5 text-sm text-gray-200 whitespace-nowrap" dir="ltr">
+                    <a href="contact.html" class="hover:text-white transition">ارتباط با ما</a>
+                    <a href="app-activation.html" class="hover:text-white transition">فعال سازی برنامه ها</a>
+                    <a href="projects-in-development.html" class="hover:text-white transition">برنامه های در حال توسعه</a>
+                    <a href="custom-websites.html" class="hover:text-white transition">وب سایت ها اختصاصی</a>
+                    <a href="consultation-order.html" class="hover:text-white transition">مشاوره و سفارش</a>
+                    <a href="index.html" class="text-white font-semibold hover:text-gray-300 transition">خانه</a>
+                </div>
+            </div>
+
+            <!-- سمت چپ: لوگو، نام برند و شعار -->
             <a href="index.html" class="flex items-center gap-2.5 text-white hover:text-gray-200 transition shrink-0" dir="ltr">
-                <img src="images/logo/logo.png" alt="TOOSI.APP.CO" class="h-7 md:h-8 w-7 md:w-8 rounded-full object-cover border border-amber-400/40 hidden" onload="this.classList.remove('hidden')" onerror="this.remove()">
-                <div class="flex flex-col leading-tight text-left">
+                <div class="flex flex-col leading-tight text-right">
                     <span class="font-bold tracking-widest text-sm md:text-base">TOOSI.APP.CO</span>
                     <span class="text-[9px] md:text-[10px] font-normal tracking-wider text-amber-300/90 mt-0.5">Engineering Ideas. Building Intelligence</span>
                 </div>
+                <img src="images/logo/logo.png" alt="TOOSI.APP.CO" width="44" height="44" class="h-9 md:h-11 w-9 md:w-11 rounded-full object-cover border border-amber-400/60 shadow-md shadow-amber-500/20">
             </a>
-
-            <!-- منوی دسکتاپ: لینک ها به ترتیب از چپ به راست -->
-            <div class="hidden md:flex items-center gap-5 text-sm text-gray-200 whitespace-nowrap" dir="ltr">
-                <a href="contact.html" class="hover:text-white transition">ارتباط با ما</a>
-                <a href="app-activation.html" class="hover:text-white transition">فعال سازی برنامه ها</a>
-                <a href="projects-in-development.html" class="hover:text-white transition">برنامه های در حال توسعه</a>
-                <a href="custom-websites.html" class="hover:text-white transition">وب سایت ها اختصاصی</a>
-                <a href="consultation-order.html" class="hover:text-white transition">مشاوره و سفارش</a>
-                <a href="index.html" class="text-white font-semibold hover:text-gray-300 transition">خانه</a>
-            </div>
-
-            <!-- دکمه منوی موبایل -->
-            <button id="mobile-menu-btn" type="button" aria-label="منو" class="md:hidden flex items-center justify-center w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-white transition">
-                <svg id="menu-icon-open" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h16" />
-                </svg>
-                <svg id="menu-icon-close" class="w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-            </button>
         </nav>
 
         <!-- منوی کشویی موبایل -->

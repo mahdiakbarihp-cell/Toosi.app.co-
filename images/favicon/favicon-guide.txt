@@ -1,0 +1,5 @@
+فایل‌های آیکون مرورگر (Favicon) در این پوشه قرار دارند:
+- favicon.png (512x512)
+- favicon-32x32.png (32x32)
+- apple-touch-icon.png (180x180)
+- favicon.ico
