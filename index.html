@@ -172,7 +172,7 @@
 <body class="text-white flex flex-col justify-between min-h-screen">
 
     <header class="w-full max-w-[1100px] mx-auto mt-3 md:mt-4 px-3 md:px-4 relative z-50">
-        <nav class="flex items-center justify-between px-4 md:px-6 py-2.5 rounded-full bg-black/55 backdrop-blur-md border border-white/15 shadow-lg">
+        <nav class="flex items-center justify-between pr-3 md:pr-5 pl-0 py-1.5 md:py-2 rounded-full bg-black/55 backdrop-blur-md border border-white/15 shadow-lg overflow-hidden">
             <!-- سمت راست: منوی دسکتاپ و دکمه منوی موبایل -->
             <div class="flex items-center justify-start gap-5">
                 <!-- دکمه منوی موبایل -->
@@ -195,13 +195,13 @@
                 </div>
             </div>
 
-            <!-- سمت چپ: لوگو، نام برند و شعار -->
-            <a href="index.html" class="flex items-center gap-2.5 text-white hover:text-gray-200 transition shrink-0" dir="ltr">
-                <div class="flex flex-col leading-tight text-right">
+            <!-- سمت چپ: چسبیده به لبه چپ کادر (لوگو سمت چپ پشت نوشته و متن جلو) -->
+            <a href="index.html" class="relative flex items-center justify-end pl-1.5 md:pl-2 text-white hover:text-gray-200 transition shrink-0" dir="ltr">
+                <img src="images/logo/logo.png" alt="TOOSI.APP.CO" width="52" height="52" class="relative z-0 -mr-4 h-11 md:h-12 w-11 md:w-12 rounded-full object-cover opacity-55 border border-amber-400/45 shadow-md shadow-amber-500/20">
+                <div class="relative z-10 flex flex-col leading-tight text-right pr-1" style="text-shadow: 0 1px 8px rgba(0,0,0,0.9);">
                     <span class="font-bold tracking-widest text-sm md:text-base">TOOSI.APP.CO</span>
-                    <span class="text-[9px] md:text-[10px] font-normal tracking-wider text-amber-300/90 mt-0.5">Engineering Ideas. Building Intelligence</span>
+                    <span class="text-[9px] md:text-[10px] font-normal tracking-wider text-amber-300/95 mt-0.5">Engineering Ideas. Building Intelligence</span>
                 </div>
-                <img src="images/logo/logo.png" alt="TOOSI.APP.CO" width="44" height="44" class="h-9 md:h-11 w-9 md:w-11 rounded-full object-cover border border-amber-400/60 shadow-md shadow-amber-500/20">
             </a>
         </nav>
 
