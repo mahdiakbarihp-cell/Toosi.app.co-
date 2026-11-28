@@ -26,3 +26,15 @@
 - images/projects-in-development/
     -> projects-in-development-guide.txt
     -> فایل کاور مستطیل چهارم: projects-in-development.jpg
+
+فایل‌های سئو و بهینه‌سازی اضافه شده در ریشه (کنار فایل‌های HTML):
+- sitemap.xml (نقشه سایت برای ثبت در Google Search Console)
+- robots.txt (دستورالعمل خزنده‌های موتورهای جستجو)
+- تصاویر بهینه‌شده WebP در کنار JPG برای بارگذاری سریع‌تر در موبایل و دسکتاپ
+
+نکات مهم هنگام بارگذاری روی هاست:
+1. فایل .htaccess در ریشه قرار داده شده تا HTTPS اجباری، دامنه یکتا (بدون www)، فشرده‌سازی Gzip و کش مرورگر فعال شود.
+2. فایل‌های شخصی زیر را حتماً در پوشه‌های خودشان قرار دهید تا لوگو، آیکون مرورگر (Favicon)، پیش‌نمایش شبکه‌های اجتماعی (og:image) و پس‌زمینه بدون خطا نمایش داده شوند:
+   - images/logo/logo.png
+   - images/logo/contact-logo.mp4
+   - images/background/1000233278_2.jpg

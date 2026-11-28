@@ -1,0 +1,28 @@
+# TOOSI.APP.CO - Production SEO & Performance Rules (.htaccess)
+RewriteEngine On
+
+# 1. Force HTTPS and remove www (Canonical Domain: https://toosiappco.ir)
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\.toosiappco\.ir$ [NC]
+RewriteRule ^(.*)$ https://toosiappco.ir/$1 [L,R=301]
+
+# 2. Clean URLs support (allows accessing /app-projects without .html)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^([^/]+)/?$ $1.html [L]
+
+# 3. Gzip Compression for faster page load
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json image/svg+xml
+</IfModule>
+
+# 4. Browser Caching for static assets
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/webp "access plus 6 months"
+    ExpiresByType image/jpeg "access plus 6 months"
+    ExpiresByType image/png "access plus 6 months"
+    ExpiresByType video/mp4 "access plus 3 months"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
